@@ -1,0 +1,23 @@
+import java.util.Scanner;
+	public class palindrome{
+		public static void main(String[] args){
+			String str= "ABCDCBA";
+			char []ch= str.toCharArray();
+			int i=0, j=ch.length-1;
+			while(i<j){
+			  if(ch[i]==ch[j]){
+			    System.out.println("Palindrome");
+			    i++;
+			    j--;
+			    break;
+			  }
+			  else{
+			    System.out.println("not palindrome");
+          break;
+			  }
+		}
+	}
+}
+  
+
+  }
